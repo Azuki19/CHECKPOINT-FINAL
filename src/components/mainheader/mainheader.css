@@ -1,0 +1,25 @@
+.sectionmainheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 20px;
+	background-color: rgb(99, 105, 190);
+	color: white;
+	font-family: 'Braah One', sans-serif;
+	font-size: 25px;
+}
+
+.sectionmainheader h1,
+.sectionmainheader ion-icon {
+	cursor: pointer; /* Cambia el cursor a una mano al pasar sobre h1 e ion-icon */
+}
+
+.div1 {
+	flex-grow: 1;
+}
+
+.div2 ion-icon {
+	margin-right: 10px;
+	font-size: 35px;
+}
+
